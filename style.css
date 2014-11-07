@@ -1,0 +1,225 @@
+/* CSS Document */
+
+/* index:
+1. WRAPPER
+2. HEADER
+3. MENU
+4. SIDEBAR
+5. CONTENT
+6. FOOTER
+*/
+
+body{
+	background-color:#FFF;
+	color:#315567;
+	font-family:Verdana;
+}
+
+/* 1. WRAPPER
+------------------------------------*/
+#wrapper{
+	width: 900px;
+	margin: 15px auto;
+	height: auto;
+	padding: 20px;
+	background-color:#FFF;
+	box-shadow: 0px 0px 20px #FFCCCC;
+	-moz-box-shadow: 0px 0px 20px #FFCCCC;
+	-webkit-box-shadow: 0px 0px 20px #FFCCCC;
+	border-radius: 17px;
+	-webkit-border-radius: 17px;
+
+
+}
+
+/* 2. HEADER
+------------------------------------*/	
+#header{
+	width: 850px;
+	height: 70px;
+	border:1px solid #FFF;
+	margin-bottom: 7px;
+	text-align:center;
+	color:#E9B810;
+	
+}
+* 3. MENU
+------------------------------------*/	
+#menu{
+	width: 850px;
+	height: 27px;
+	margin-bottom: 7px;
+	border:1px solid #FFF;
+	font-size:17px;
+	color:#E9B810;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+#menu ul{
+	margin: 4px 4px 4px 7px;
+	padding: 0px;
+	life-style: none;
+}
+
+#menu li{
+	margin: 10px;
+	padding: 0px;
+	display: inline;
+}
+
+
+#menu a{
+	padding: 6px 6px 6px 6px;
+	text-decoration: none;
+
+}
+
+#menu a:hover{
+	padding: 5px 5px 2px 5px;
+	text-decoration: none;
+	color:#E9B810;
+	background:FF9000;
+}	
+
+/*4. SIDEBAR
+-----------------------------------------*/
+#sidebar{
+	float: right;
+	width:300px;
+	height: 290px;
+	border:1px solid ##CC;
+	margin-bottom:7px;
+	text-align:center;
+	color:#E9B810;
+}
+
+/*5. CONTENT
+-----------------------------------------*/
+#content{
+	width:538px;
+	height: 560px;
+	margin-bottom:2px;
+	border:1px solid ##CC;
+	margin-bottom:7px;
+	color:#E9B810;
+}
+
+#content img{
+	border-radius: 17 px;
+	-moz-border-radius: 17 px;
+	-webkit-border-radius: 17 px;
+	box-shadow: 0px 0px 10px #F30;
+	-moz-box-shadow: 0px 0px 10px #F30;
+	-webkit-box-shadow: 0px 0px 10px #F30;
+	padding: 2px; margin-right:10 px;
+	float:left;
+}
+
+/*7. FOOTER
+-----------------------------------------*/	
+#FOOTER{
+	text-align:center;
+	font-size:9px;
+	font-family: Verdana, Geneva, sans-serif;
+	left:4px;
+	width:893px;
+	height:20px;
+	top: 618px;
+	color:#00F;
+}
+
+
+#about_photos img{
+	margin-left:270px;
+	width:369px;
+	height:253px;
+	
+	background:#FFFFFF;
+	-moz-box-shadow:0px 0px 7px 0px #797979;
+	border:7px solid #FFF;
+	   box-shadow:0px 0px 7px 0px #797979;
+        -webkit-box-shadow:0px 0px 7px 0px #797979;
+        -moz-box-shadow:0px 0px 7px 0px #797979;
+	
+}
+
+
+a
+{
+	text-decoration:none;
+	color:#09F;
+}
+a:hover
+{
+	color:#9C0;
+}
+/*akhir link a*/
+/*judul halaman*/
+#judulHalaman
+{
+	color:#333;
+	font-size:18px;
+	background-color:#CCC;
+	border:1px solid #999;
+	padding:7px 14px;
+	margin:7px 9px;
+	border-radius:5px;
+}
+/*akhir judul halaman*/
+/*style form*/
+#input
+{
+	padding:3px 5px;
+	margin:0px 3px;
+	border:1px solid #c0d3e2;
+	border-radius:3px;
+}
+#tombol
+{
+	color:#FFF;
+	padding:3px 5px;
+	background-color:#FF6699;
+	border:1px solid #FF0099;
+	border-radius:3px;
+}
+#tombol:hover
+{
+	background-color:#9C0;
+	border:1px solid #990;
+}
+#tombolAdd
+{
+	color:#FFF;
+	margin:7px 9px;
+	width:150px;
+	padding:5px 7px;
+	background-color:#FF6699;
+	border:1px solid #FF0099
+	border-radius:3px;
+}
+#tombolAdd:hover
+{
+	background-color:#9C0;
+	border:1px solid #990;
+}
+/*akhir style form*/
+/*style tabel*/
+table
+{
+	margin:5px 9px;
+}
+td
+{
+	padding:5px 9px;
+	border:1px solid #c0d3e2;
+}
+#namaField{
+	color:#FFF;
+	background-color:#FF6699;
+	text-align:center;
+	padding-top:7px;
+	border:none;
+}

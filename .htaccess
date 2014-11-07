@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^$ index.php?menu=2 [L]
+Options All -Indexes
+
+
